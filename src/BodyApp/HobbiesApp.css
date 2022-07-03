@@ -1,0 +1,31 @@
+/* .hobbies-img:hover {
+    transform: scale(1.15);
+} */
+
+.hobbies-img {
+transition: 0.5s;  
+transform: scale(1);
+}
+.hobbies-img:hover {
+transform: scale(1.05);
+transition: 0.5s;
+}
+
+
+.hobbies-hover {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 15%;
+  }
+
+  .hobbies-img:hover {
+    opacity: 1;
+  }

@@ -2,7 +2,7 @@ import './WhatIDoApp.css';
 import logo from '../logo.svg';
 import javascript from '../javascript.png';
 import htmlCss from '../html-css.png';
-import React, { Component }  from 'react';
+import React from 'react';
 
 function App() {
   return (

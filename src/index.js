@@ -8,8 +8,7 @@ import HobbiesApp from './BodyApp/HobbiesApp';
 import FooterApp from './FooterApp/FooterApp';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from 'react-router-dom';
-import { HashLink as Link } from 'react-router-hash-link';
+
 
 
 
